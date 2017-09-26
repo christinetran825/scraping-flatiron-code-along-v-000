@@ -6,6 +6,7 @@ require_relative './course.rb'
 
 class Scraper
 
+binding.pry
   def get_page #only the code for getting the HTML doc
 
     Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
